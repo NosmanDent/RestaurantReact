@@ -1,0 +1,135 @@
+.app__header {
+    background-color: var(--color-black);
+}
+
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 117px;
+    font-size: 90px;
+}
+
+.app__header-img img {
+    width: 80%;
+}
+
+
+.background__gradient {
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 80% 18%, rgba(213, 209, 196, 1) 20%, rgba(10, 10, 10, 0.98) 80%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 80% 18%, rgba(213, 209, 196, 1) 20%, rgba(10, 10, 10, 0.98) 80%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 80% 18%, rgba(213, 209, 196, 1) 20%, rgba(10, 10, 10, 0.98) 80%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 80% 18%, rgba(213, 209, 196, 1) 20%, rgba(10, 10, 10, 0.98) 80%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 80% 18%, rgba(213, 209, 196, 1) 20%, rgba(10, 10, 10, 0.98) 80%);
+}
+    
+
+
+@media screen and (min-width: 2000px) {
+    .app__header-h1 {
+        font-size: 180px;
+        line-height: 210px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__header-h1 {
+        font-size: 90px;
+    }
+
+    .background__gradient 
+    {
+    
+        /* ff 3.6+ */
+        background:-moz-linear-gradient(90deg, rgba(29, 30, 29, 1) 0%, rgba(50, 33, 27, 1) 100%); 
+    
+        /* safari 5.1+,chrome 10+ */
+        background:-webkit-linear-gradient(90deg, rgba(29, 30, 29, 1) 0%, rgba(50, 33, 27, 1) 100%);
+    
+        /* opera 11.10+ */
+        background:-o-linear-gradient(90deg, rgba(29, 30, 29, 1) 0%, rgba(50, 33, 27, 1) 100%);
+    
+        /* ie 6-9 */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32211B', endColorstr='#1D1E1D', GradientType=0 );
+    
+        /* ie 10+ */
+        background:-ms-linear-gradient(90deg, rgba(29, 30, 29, 1) 0%, rgba(50, 33, 27, 1) 100%);
+    
+        /* global 94%+ browsers support */
+        background:linear-gradient(90deg, rgba(29, 30, 29, 1) 0%, rgba(50, 33, 27, 1) 100%);
+    
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__header-h1 {
+        font-size: 70px;
+        line-height: 87px;
+    }
+
+    .background__gradient 
+    {
+    
+        /* ff 3.6+ */
+        background:-moz-linear-gradient(90deg, rgba(29, 30, 29, 1) 0%, rgba(50, 33, 27, 1) 100%); 
+    
+        /* safari 5.1+,chrome 10+ */
+        background:-webkit-linear-gradient(90deg, rgba(29, 30, 29, 1) 0%, rgba(50, 33, 27, 1) 100%);
+    
+        /* opera 11.10+ */
+        background:-o-linear-gradient(90deg, rgba(29, 30, 29, 1) 0%, rgba(50, 33, 27, 1) 100%);
+    
+        /* ie 6-9 */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32211B', endColorstr='#1D1E1D', GradientType=0 );
+    
+        /* ie 10+ */
+        background:-ms-linear-gradient(90deg, rgba(29, 30, 29, 1) 0%, rgba(50, 33, 27, 1) 100%);
+    
+        /* global 94%+ browsers support */
+        background:linear-gradient(90deg, rgba(29, 30, 29, 1) 0%, rgba(50, 33, 27, 1) 100%);
+    
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__header-h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .background__gradient 
+    {
+    
+        /* ff 3.6+ */
+        background:-moz-linear-gradient(90deg, rgba(29, 30, 29, 1) 0%, rgba(50, 33, 27, 1) 100%); 
+    
+        /* safari 5.1+,chrome 10+ */
+        background:-webkit-linear-gradient(90deg, rgba(29, 30, 29, 1) 0%, rgba(50, 33, 27, 1) 100%);
+    
+        /* opera 11.10+ */
+        background:-o-linear-gradient(90deg, rgba(29, 30, 29, 1) 0%, rgba(50, 33, 27, 1) 100%);
+    
+        /* ie 6-9 */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32211B', endColorstr='#1D1E1D', GradientType=0 );
+    
+        /* ie 10+ */
+        background:-ms-linear-gradient(90deg, rgba(29, 30, 29, 1) 0%, rgba(50, 33, 27, 1) 100%);
+    
+        /* global 94%+ browsers support */
+        background:linear-gradient(90deg, rgba(29, 30, 29, 1) 0%, rgba(50, 33, 27, 1) 100%);
+    
+    }
+}
+
